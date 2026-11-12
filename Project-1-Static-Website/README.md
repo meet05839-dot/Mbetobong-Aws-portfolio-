@@ -37,4 +37,4 @@ Skills Gained
 
 Project Status
 
-completed
+in progress 
