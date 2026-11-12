@@ -44,3 +44,64 @@ Project Evidence
 Live Website
 
 [http://mbetobong-cloud-portfolio-2026.s3-website-us-east-1.amazonaws.com]
+
+Project 2: Highly Available Web Application on AWS
+
+Project Status
+
+Completed.
+
+Project Overview
+
+Designed and deployed a highly available web application using Amazon EC2, Application Load Balancer and Auto Scaling.
+
+AWS Services Used
+
+* Amazon EC2
+* Application Load Balancer
+* EC2 Auto Scaling
+* Amazon VPC
+* Security Groups
+
+Architecture
+
+Internet → Application Load Balancer → Target Group → EC2 Instances
+
+Tasks Completed
+
+1. Created security groups for the Load Balancer and EC2 instances.
+2. Created a target group.
+3. Deployed an internet-facing Application Load Balancer.
+4. Created an EC2 launch template.
+5. Configured Apache web server using user data.
+6. Created an Auto Scaling group.
+7. Launched two EC2 instances across Availability Zones.
+8. Verified target health.
+9. Tested website accessibility through the Load Balancer DNS name.
+
+Skills Demonstrated
+
+* EC2 instance management.
+* Application Load Balancing.
+* Auto Scaling configuration.
+* Security group management.
+* Basic web server deployment.
+* High availability concepts.
+* Cloud infrastructure monitoring.
+
+Learning Outcome
+
+Gained practical experience designing and deploying a highly available web application using AWS infrastructure services.
+
+Project Evidence
+
+* Security group screenshots.
+* Target group screenshot.
+* Load Balancer screenshot.
+* Auto Scaling group screenshot.
+* EC2 instance screenshots.
+* Screenshot of the working website.
+
+Live Application
+
+[http://mbet-web-alb-420611425.us-east-1.elb.amazonaws.com]
