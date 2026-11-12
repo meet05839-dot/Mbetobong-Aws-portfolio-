@@ -111,8 +111,13 @@ Amazon EC2 monitoring server
 Amazon CloudWatch
 
 Amazon cloudwatch monitors CPU utilisation
+
 CloudWatch Alarm detects CPU above 70%
+
 Amazon SNS sends notifications 
+
 Email notification receives alerts 
-project evidence 
+
+project evidence:
+
 screenshot of ec2, cloudwatch alarms and SNS (simple notification service)
