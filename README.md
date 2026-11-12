@@ -101,7 +101,18 @@ Project Evidence
 * Auto Scaling group screenshot.
 * EC2 instance screenshots.
 * Screenshot of the working website.
-
 Live Application
-
 [http://mbet-web-alb-420611425.us-east-1.elb.amazonaws.com]
+
+Project 3: CloudWatch Monitoring System — Completed
+I have successfully configured:
+
+Amazon EC2 monitoring server 
+Amazon CloudWatch
+
+Amazon cloudwatch monitors CPU utilisation
+CloudWatch Alarm detects CPU above 70%
+Amazon SNS sends notifications 
+Email notification receives alerts 
+project evidence 
+screenshot of ec2, cloudwatch alarms and SNS (simple notification service)
