@@ -1,0 +1,44 @@
+Project 4: Secure Cloud Network Using AWS VPC
+
+Project Status
+
+Completed
+
+Project Overview
+
+Designed and configured a secure AWS Virtual Private Cloud (VPC) with separate public and private subnets, an Internet Gateway, route tables, and security groups.
+
+AWS Services Used
+
+* Amazon VPC
+* Public and Private Subnets
+* Internet Gateway
+* Route Tables
+* Security Groups
+
+Implementation
+
+1. Created a VPC with CIDR block 10.0.0.0/16.
+2. Created a public subnet using 10.0.1.0/24.
+3. Created a private subnet using 10.0.2.0/24.
+4. Created and attached an Internet Gateway.
+5. Configured a public route table with internet access.
+6. Configured a private route table with local routing only.
+7. Created a security group allowing HTTP traffic and restricted SSH access.
+
+Skills Demonstrated
+
+* AWS network architecture
+* VPC configuration
+* Subnet design
+* Route table configuration
+* Internet Gateway configuration
+* Network security fundamentals
+
+Learning Outcome
+
+Learned how to design a basic AWS network that separates public-facing resources from private resources and controls network traffic using routing and security groups.
+
+Evidence
+
+Screenshots of the VPC, subnets, Internet Gateway, route tables, and security group.
